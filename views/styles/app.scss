@@ -1,0 +1,14 @@
+#root{
+  border-left: solid black 1px; 
+  border-top: solid black 1px;  
+  width: 400px; height: 400px;  
+}
+.cell{ 
+  width: 39px; height: 39px;
+  background: lightgrey;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+  display: block;
+  float: left;
+}
+.cell.active{ background: darkred; }
